@@ -1,0 +1,14 @@
+.heartContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(0, 0, 0, .85);
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.heartContainer p {
+    color: #A09FA6;
+    font-weight: 500;
+}

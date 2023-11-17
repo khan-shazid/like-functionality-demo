@@ -1,0 +1,6 @@
+.userInputContainer {
+    display: flex;
+    gap: 8px;
+    background-color: rgba(0, 0, 0, .85);
+    padding: 10px 20px;
+}
