@@ -3,7 +3,15 @@ import { ReactNode } from 'react';
 
 export function FallbackComponent(): ReactNode {
     return (
-        <div className="w-full h-full flex items-center justify-center bg-default">
+        <div
+            style={{
+                width: '100%',
+                height: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+            }}
+        >
             <Loader />
         </div>
     );

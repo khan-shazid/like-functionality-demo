@@ -1,7 +1,15 @@
 export function Loader() {
     return (
         <div aria-label="Loading..." role="status">
-            <svg className="animate-spin w-6 h-6 stroke-slate-500" viewBox="0 0 256 256">
+            <svg
+                style={{
+                    width: 24,
+                    height: 24,
+                    stroke: 'black',
+                    animation: 'spin 1s linear infinite',
+                }}
+                viewBox="0 0 256 256"
+            >
                 <line
                     x1="128"
                     y1="32"
